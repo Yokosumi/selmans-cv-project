@@ -6,6 +6,8 @@ html {
 }
 body {
   margin: 0;
+  background-color: #f0e3ca;
+  color: #1b1a17;
 }
 h1,
 h2,
@@ -17,4 +19,8 @@ h4 {
 header,
 main {
   padding: 20px;
+}
+header {
+  text-align: center;
+  background-color: #a35709;
 }
