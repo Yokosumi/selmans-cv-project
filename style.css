@@ -15,12 +15,20 @@ h3,
 h4 {
   font-family: Lobster, sans-serif;
   font-size: 16px;
+  color: #a35709;
+}
+h1 {
+  font-size: 20px;
+  color: black;
 }
 header,
 main {
   padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
-header {
+.page-header {
   text-align: center;
-  background-color: #a35709;
+  background-color: #ff8303;
+  padding: 18px;
 }
