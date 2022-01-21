@@ -55,3 +55,11 @@ a:hover {
 a:active {
   background-color: #58391C;
 }
+
+::selection {
+  background-color: black;
+  color: white;
+}
+.profession::after {
+ content: '😼';
+}
