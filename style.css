@@ -36,17 +36,13 @@ main {
   padding: 18px;
 }
 article {
-  border: #876445 solid 5px;
-  border-style: inset;
-  border-radius: 0.5rem;
+  border-bottom: #876445 solid 5px;
   margin-top: 1rem;
 }
 article:first-child {
   border: none;
 }
-p {
-  padding: 14px;
-}
+
 
 .navi {
  margin-right: 50px;
