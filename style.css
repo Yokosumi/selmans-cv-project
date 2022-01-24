@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 html {
-  font-family: outfit, Verdana, sans-serif;
+  font-family: outfit, Verdana, sans-serif, inherit;
   font-size: 18px;
 }
 body {
@@ -30,11 +30,6 @@ main {
   margin: 0 auto;
 }
 
-.page-header {
-  text-align: center;
-  background-color: #7e583e;
-  padding: 18px;
-}
 article {
   border-bottom: #876445 solid 5px;
   margin-top: 1rem;
@@ -43,17 +38,22 @@ article:first-child {
   border: none;
 }
 
-
+*/* classes */*
 .navi {
- margin-right: 50px;
- color: #262626;
+  margin-right: 50px;
+  color: #262626;
+}
+.page-header {
+  text-align: center;
+  background-color: #7e583e;
+  padding: 18px;
 }
 a:hover {
   color: goldenrod;
 }
 
 a:active {
-  background-color: #58391C;
+  background-color: #58391c;
 }
 
 ::selection {
@@ -61,5 +61,5 @@ a:active {
   color: white;
 }
 .profession::after {
- content: '😼';
+  content: "😼";
 }
