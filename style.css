@@ -1,4 +1,6 @@
-* {
+/***************************************************************************
+General Stylings*/
+* * {
   box-sizing: border-box;
 }
 html {
@@ -37,8 +39,8 @@ article {
 article:first-child {
   border: none;
 }
-
-*/* classes */*
+*/***************************************************************************/*
+*/* specific stylings */*
 .navi {
   margin-right: 50px;
   color: #262626;
