@@ -5,20 +5,21 @@ General Stylings*/
 }
 html {
   font-family: outfit, Verdana, sans-serif, inherit;
-  font-size: 18px;
+  font-size: 10px;
 }
 body {
   margin: 0;
   background-color: #f0e3ca;
   color: #1b1a17;
 }
+
 h1,
 h2,
 h3,
 h4 {
-  padding-left: 16px;
+  padding-left: 1.6rem;
   font-family: Lobster, sans-serif;
-  font-size: 26px;
+  font-size: 2.6rem;
   color: #a35709;
 }
 h1 {
@@ -27,18 +28,19 @@ h1 {
 }
 header,
 main {
-  padding: 20px;
-  max-width: 1000px;
+  padding: 3rem;
+  max-width: 80ch;
   margin: 0 auto;
+  font-size: 2.2rem;
 }
 
 article {
-  border-bottom: #876445 solid 5px;
+  border-bottom: #876445 solid 0.5rempx;
   margin-top: 1rem;
 }
 main article {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 article:first-child {
   border: none;
@@ -46,13 +48,13 @@ article:first-child {
 */***************************************************************************/*
 */* specific stylings */*
 .navi {
-  margin-right: 50px;
+  margin-right: 5rem;
   color: #262626;
 }
 .page-header {
   text-align: center;
   background-color: #7e583e;
-  padding: 18px;
+  padding: 1.8rem;
 }
 a:hover {
   color: goldenrod;
@@ -79,10 +81,18 @@ a:active {
 }
 .hm-badge {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 2px;
-  margin-top: 10px;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.2rem;
+  margin-top: 1rem;
   background: sienna;
-  border-radius: 4px;
+  border-radius: 0.4rem;
+}
+
+.header-heading {
+  font-size: 5em;
+}
+
+.header-heading p {
+  font-size: 20%;
 }
