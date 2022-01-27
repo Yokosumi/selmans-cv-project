@@ -96,3 +96,27 @@ a:active {
 .header-heading p {
   font-size: 20%;
 }
+
+@media screen and (min-width: 786px) {
+  html {
+    font-size: 13px;
+  }
+  article + article {
+    margin-top: 3em;
+  }
+}
+@media screen and (min-width: 992px) {
+  body {
+    font-size: 12px;
+  }
+  .hm-badge {
+    position: fixed;
+  }
+}
+
+@media printer {
+  .hm-badge,
+  nav {
+    display: none;
+  }
+}
