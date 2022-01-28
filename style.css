@@ -23,12 +23,15 @@ h4 {
 h1 {
   font-size: 30px;
 }
-header,
+
 main {
   padding: 3rem;
   max-width: 80ch;
   margin: 0 auto;
-  font-size: 2.2rem;
+  font-size: 1.5rem;
+}
+main p {
+  font-size: 1.7rem;
 }
 
 article {
@@ -55,6 +58,7 @@ article:first-child {
   background-color: #7e583e;
   padding: 1.8rem;
   color: white;
+  width: ;
 }
 a:hover {
   color: goldenrod;
@@ -94,10 +98,11 @@ a:active {
   margin-top: 1rem;
   background: #352315;
   border-radius: 0.4rem;
+  font-size: 1.5rem;
 }
 
 .header-heading {
-  font-size: 5em;
+  font-size: 8rem;
   font-family: "Architects Daughter", cursive;
 }
 
@@ -109,6 +114,7 @@ a:active {
   display: flex;
   justify-content: space-around;
   font-family: "Architects Daughter", cursive;
+  font-size: 1.7rem;
 }
 nav a {
   text-decoration: none;
