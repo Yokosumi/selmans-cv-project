@@ -12,8 +12,6 @@ body {
   background-color: #f0e3ca;
   color: #1b1a17;
 }
-
-h1,
 h2,
 h3,
 h4 {
@@ -24,7 +22,6 @@ h4 {
 }
 h1 {
   font-size: 30px;
-  color: #080808;
 }
 header,
 main {
@@ -45,8 +42,10 @@ main article {
 article:first-child {
   border: none;
 }
+
 */***************************************************************************/*
 */* specific stylings */*
+
 .navi {
   margin-right: 5rem;
   color: #262626;
@@ -55,13 +54,14 @@ article:first-child {
   text-align: center;
   background-color: #7e583e;
   padding: 1.8rem;
+  color: white;
 }
 a:hover {
   color: goldenrod;
 }
 
 a:active {
-  background-color: #58391c;
+  color: #58391c;
 }
 
 ::selection {
@@ -72,7 +72,14 @@ a:active {
   content: "😼";
 }
 .experience-heading {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+}
+
+.timespan {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .profile-heading {
@@ -85,16 +92,30 @@ a:active {
   right: 1rem;
   padding: 0.2rem;
   margin-top: 1rem;
-  background: sienna;
+  background: #352315;
   border-radius: 0.4rem;
 }
 
 .header-heading {
   font-size: 5em;
+  font-family: "Architects Daughter", cursive;
 }
 
 .header-heading p {
   font-size: 20%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Architects Daughter", cursive;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  background: #2e1503;
+  padding: 0.4rem;
+  border-radius: 1rem;
 }
 
 @media screen and (min-width: 786px) {
@@ -104,6 +125,16 @@ a:active {
   article + article {
     margin-top: 3em;
   }
+  .navigation {
+    display: flex;
+  }
+  .experience-heading {
+    display: flex;
+  }
+  .timespan {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 @media screen and (min-width: 992px) {
   body {
@@ -112,11 +143,18 @@ a:active {
   .hm-badge {
     position: fixed;
   }
-}
+  .experience-heading {
+    display: flex;
+  }
+  .timespan {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 
-@media printer {
-  .hm-badge,
-  nav {
-    display: none;
+  @media printer {
+    .hm-badge,
+    nav {
+      display: none;
+    }
   }
 }
