@@ -58,7 +58,6 @@ article:first-child {
   background-color: #7e583e;
   padding: 1.8rem;
   color: white;
-  width: ;
 }
 a:hover {
   color: goldenrod;
@@ -124,6 +123,15 @@ nav a {
   border-radius: 1rem;
 }
 
+.article-grid {
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr;
+}
+
+h3 {
+  border-bottom: chocolate 5px solid;
+}
+
 @media screen and (min-width: 786px) {
   html {
     font-size: 13px;
@@ -141,6 +149,9 @@ nav a {
     display: flex;
     flex-direction: row-reverse;
   }
+  .article-grid {
+    grid-template-rows: 0.3fr 0.3fr;
+  }
 }
 @media screen and (min-width: 992px) {
   body {
@@ -155,6 +166,9 @@ nav a {
   .timespan {
     display: flex;
     flex-direction: row-reverse;
+  }
+  .article-grid {
+    grid-template-rows: 0.6fr 0.6fr;
   }
 
   @media printer {
