@@ -59,6 +59,10 @@ article:first-child {
   padding: 1.8rem;
   color: white;
 }
+.transition {
+  transition: color 1s;
+}
+
 a:hover {
   color: goldenrod;
 }
