@@ -62,6 +62,9 @@ article:first-child {
 .transition {
   transition: color 1s;
 }
+.navi:focus {
+  color: goldenrod;
+}
 
 a:hover {
   color: goldenrod;
