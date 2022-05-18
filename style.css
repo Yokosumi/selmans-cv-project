@@ -36,8 +36,9 @@ h4 {
   font-size: 2.6rem;
   color: var(--main-heading-color);
 }
+
 h1 {
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 main {
@@ -118,22 +119,9 @@ a:active {
   position: relative;
   left: 1rem;
 }
-.hm-badge {
-  position: absolute;
-  top: 1rem;
-  right: 2rem;
-  padding: 0.2rem;
-  margin-top: 1rem;
-  background: var(--button-color);
-  border-radius: 0.4rem;
-  font-size: 1.5rem;
-  transform-origin: top right;
-  transition: transform 0.25s ease-in-out, opacity 0.25 ease-in-out;
-}
 
 .page-header:hover .hm-badge,
 .page-header:focus-within.hm-badge {
-  transform: scale(1.5);
   opacity: 1;
 }
 
@@ -206,9 +194,6 @@ h3 {
   body {
     font-size: 12px;
   }
-  .hm-badge {
-    position: fixed;
-  }
   .experience-heading {
     display: flex;
   }
@@ -221,7 +206,6 @@ h3 {
   }
 
   @media printer {
-    .hm-badge,
     nav {
       display: none;
     }
